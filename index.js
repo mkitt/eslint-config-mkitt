@@ -5,7 +5,7 @@ module.exports = {
     'plugin:flowtype/recommended'
   ],
   plugins: [
-    "flowtype"
+    'flowtype'
   ],
   env: {
     browser: true,
@@ -13,17 +13,11 @@ module.exports = {
     jest: true,
   },
   rules: {
-    'no-alert': 2,
-    'no-console': 2,
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: [
-          '.js',
-          '.jsx'
-        ]
-      }
-    ],
+    semi: ['error', 'never'],
+    'no-alert': 'error',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'object-curly-newline': 'off',
+    'react/jsx-filename-extension': 'off',
     'react/sort-comp': [
       'error',
       {
@@ -38,8 +32,6 @@ module.exports = {
           'render'
         ]
       }
-    ],
-    semi: 0
+    ]
   }
 }
-

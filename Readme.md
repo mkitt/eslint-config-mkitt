@@ -8,4 +8,3 @@ Install with `peerDependencies`:
 ```
 yarn add eslint-config-mkitt babel-eslint eslint -DE
 ```
-
