@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mkitt",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "Matthew Kitt <mk@mkitt.net>",
   "description": "ESLint configuration based off of Airbnb's config paired with the flowtype plugin",
   "main": "index.js",
@@ -11,9 +11,9 @@
     "url": "https://github.com/mkitt/eslint-config-mkitt"
   },
   "dependencies": {
-    "eslint-config-airbnb": "16.0.0",
+    "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-flowtype": "2.39.1",
-    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
     "eslint-plugin-react": "7.4.0"
   },
