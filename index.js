@@ -5,33 +5,21 @@ module.exports = {
     'plugin:flowtype/recommended'
   ],
   plugins: [
-    'flowtype'
+    "flowtype"
   ],
   env: {
     browser: true,
-    node: true,
+    es6: true,
     jest: true,
+    node: true
   },
   rules: {
-    semi: ['error', 'never'],
-    'no-alert': 'error',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
     'object-curly-newline': 'off',
     'react/jsx-filename-extension': 'off',
-    'react/sort-comp': [
-      'error',
-      {
-        order: [
-          'type-annotations',
-          'static-methods',
-          'lifecycle',
-          '/^on.+$/',
-          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-          'everything-else',
-          '/^render.+$/',
-          'render'
-        ]
-      }
-    ]
+    'jsx-a11y/anchor-is-valid': ['error', {
+      'components': ['Link'],
+      'specialLink': ['to']
+    }],
+    semi: ['error', 'never']
   }
 }
