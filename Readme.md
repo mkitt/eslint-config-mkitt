@@ -6,5 +6,5 @@ with the [flowtype plugin](https://github.com/gajus/eslint-plugin-flowtype).
 Install with `peerDependencies`:
 
 ```
-yarn add eslint-config-mkitt babel-eslint eslint -DE
+yarn add eslint eslint-config-muvehealth -DE
 ```
