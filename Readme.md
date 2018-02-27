@@ -1,10 +1,27 @@
-# ESLint Config
+<img src="https://mkitt.net/apple-touch-icon.png" width="96px" height="96px" />
 
-Based off of the [Airbnb config](https://github.com/airbnb/javascript) paired
-with the [flowtype plugin](https://github.com/gajus/eslint-plugin-flowtype).
+# ESLint configuration
+
+1. Extends: `airbnb, flowtype/recommended`
+2. Plugins: `flowtype, import, jsx-a11y, react`
+
+Some airbnb rules are being overridden.
 
 Install with `peerDependencies`:
 
+```sh
+yarn add eslint eslint-config-mkitt -DE
 ```
-yarn add eslint eslint-config-muvehealth -DE
+
+Add to package.json:
+
+```json
+"eslintConfig": {
+  "extends": "mkitt"
+}
 ```
+
+[mkitt.net][mkitt.net] | [github.com/mkitt][github]
+
+[github]: https://github.com/mkitt "github.com/mkitt"
+[mkitt.net]: https://mkitt.net "mkitt.net"
