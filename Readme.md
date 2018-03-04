@@ -21,7 +21,7 @@ Add to package.json:
 }
 ```
 
-[mkitt.net][mkitt.net] | [github.com/mkitt][github]
+[mkitt.net][mkitt.net] | [github/mkitt][github]
 
-[github]: https://github.com/mkitt "github.com/mkitt"
+[github]: https://github.com/mkitt "@mkitt"
 [mkitt.net]: https://mkitt.net "🏔"
