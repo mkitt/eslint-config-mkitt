@@ -1,4 +1,4 @@
-<img src="/apple-touch-icon.png" width="80px" height="80px" />
+<img src="https://mkitt.net/apple-touch-icon.png" width="80px" height="80px" />
 
 # ESLint configuration
 
