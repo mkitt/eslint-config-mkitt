@@ -1,4 +1,4 @@
-<img src="https://mkitt.net/apple-touch-icon.png" width="96px" height="96px" />
+<img src="/apple-touch-icon.png" width="80px" height="80px" />
 
 # ESLint configuration
 
@@ -24,4 +24,4 @@ Add to package.json:
 [mkitt.net][mkitt.net] | [github.com/mkitt][github]
 
 [github]: https://github.com/mkitt "github.com/mkitt"
-[mkitt.net]: https://mkitt.net "mkitt.net"
+[mkitt.net]: https://mkitt.net "🏔"
